@@ -1,0 +1,52 @@
+# Gradle-specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Kotlin-specific
+*.class
+*.jar
+*.war
+*.ear
+*.kotlin_module
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Generated files
+*.generated/
+*.generated.*
+
+# Test reports
+test-results/
+test-output/
+reports/
+
+# Dependency caches
+**/build/
+**/out/

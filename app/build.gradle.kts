@@ -10,7 +10,7 @@ plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
     alias(libs.plugins.kotlin.jvm)
     kotlin("plugin.serialization") version "2.1.10"
-    id("org.jlleitschuh.gradle.ktlint") version "12.2.0"
+    // id("org.jlleitschuh.gradle.ktlint") version "12.2.0"
 
     // Apply the application plugin to add support for building a CLI application in Java.
     application
